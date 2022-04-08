@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/CLionProjects/MyGame/Solder.h
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+utility
+-
+vector
+-
+sstream
+-
+
+C:/Users/user/CLionProjects/MyGame/main.cpp
+Solder.h
+C:/Users/user/CLionProjects/MyGame/Solder.h
+
